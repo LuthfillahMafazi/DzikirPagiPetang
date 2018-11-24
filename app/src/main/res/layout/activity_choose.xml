@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseActivity"
+    android:background="@drawable/bg_jikir"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dzikir_pagi_petang"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan pilih jenis dzikir nya "
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Dzikir Pagi"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="DzikirPagi"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Dzikir Petang"
+        android:textStyle="bold"
+        android:onClick="DzikirPetang"/>
+
+
+</LinearLayout>
